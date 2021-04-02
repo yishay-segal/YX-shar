@@ -23,6 +23,9 @@ const userSchema: Schema = new mongoose.Schema(
       minlength: 5,
       select: false,
     },
+    files: {
+      type: Array
+    }
   },
   { timestamps: true }
 );
